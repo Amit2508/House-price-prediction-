@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-    parameters {
-        string(name: 'PROJECT_NAME', defaultValue: 'fnd', description: 'Specify your project name')
-    }
+    // parameters {
+    //     string(name: 'PROJECT_NAME', defaultValue: 'fnd', description: 'Specify your project name')
+    // }
 
     environment {
         DOCKER_USERNAME = 'BhawnaGarg2508'
